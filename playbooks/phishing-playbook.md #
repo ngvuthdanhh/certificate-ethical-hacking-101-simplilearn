@@ -1,0 +1,15 @@
+# 🔒 Phishing Response Playbook
+
+## Detection
+- User reports suspicious emails.
+- Email gateway flags malicious links/attachments.
+
+## Response
+1. Block malicious sender at email gateway.
+2. Invalidate credentials if users clicked links.
+3. Forensic analysis of payload (if attachment).
+
+## Prevention
+- Conduct phishing awareness training.
+- Deploy anti-phishing tools.
+- Enable MFA for accounts.
